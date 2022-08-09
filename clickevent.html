@@ -1,0 +1,40 @@
+<!Doctype html>
+<head>
+</head>
+<body>
+<button onclick="func1()">button1</button>
+<button onclick="func2()">button2</button>
+<p id="button3" onmouseover="display()" onmouseout="something()">button3</p>
+<div id="div1">
+<h1>first division</h1>
+</div>
+<div id="div2">
+<h1>second division</h1>
+</div>
+<script>
+function func1(){
+var one=document.getElementById("div1");
+if(one.style.visibility=='hidden')
+one.style.visibility='visible';
+else
+one.style.visibility='hidden';
+}
+function func2(){
+var two=document.getElementById("div2");
+
+two.style.color='red';
+
+}
+function display(){
+var three = document.getElementById("button3");
+three.style.color='green';
+three.style.fontSize='10px';
+three.style.backgroundColor='black'; 
+}
+function something(){
+var four = document.getElementById("button3");
+four.style.fontSize='30px';
+}
+</script>
+</body>
+</html>

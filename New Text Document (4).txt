@@ -1,0 +1,8 @@
+<!Doctype>
+<head>
+</head>
+<body>
+<button onclick="document.getElementById('datevalue').innerHTML=Date()">clickme</button>
+<h1 id="datevalue"></h1>
+</body>
+</html>

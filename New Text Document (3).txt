@@ -1,0 +1,24 @@
+<!Doctype>
+<head>
+<body>
+<h1 id="id1"></h1>
+<form>
+
+name:<input type="text" id="name">
+password:<input type="password" id="password">
+<input type="button" onclick="concat()">
+</form>
+<script>
+var txt="";
+var pass="";
+function concat(){
+txt=document.getElementById("name").value;
+pass=document.getElementById("password").value;
+var out=txt+pass;
+document.getElementById("id1").innerHTML=var;
+
+}
+</script>
+</body>
+</head>
+</html>

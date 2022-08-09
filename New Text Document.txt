@@ -1,0 +1,57 @@
+1.)b)120 200 14
+
+016 is an octal number, its equivalent decimal number is 14. Hence answer is B.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.)b)int[] A = {1, 2, 3} is the valid way of declaring arrays.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.)b)6 Since, the loop runs till 6, the value of i is 6.
+
+

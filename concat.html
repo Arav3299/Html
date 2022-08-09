@@ -1,0 +1,40 @@
+<!Doctype>
+<head>
+<style>
+#id1{
+color:#008080;
+}
+h1{
+border:2px solid black;
+}
+</style>
+</head>
+<body>
+<h1 id="id1"></h1>
+<p id="product"></p>
+<form>
+
+name:<input type="text" id="name">
+password:<input type="password" id="password">
+<input type="button" value="submit" onclick="concat()">
+</form>
+<script>
+var txt="";
+var pass="";
+function concat(){
+txt=document.getElementById("name").value;
+pass=document.getElementById("password").value;
+var out=txt+pass;
+document.getElementById("id1").innerHTML=out;
+
+var product={
+name:"laptop",
+price:"10000"
+}
+document.getElementById("product").innerHTML=product.name+"\n"+product.price;
+
+}
+</script>
+</body>
+
+</html>
