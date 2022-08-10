@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar justify-content-center" id="nav">
+    <div>
+    <a class="navbar-brand" href="#">
+      <img id="im" src="../assets/images/edubridge.png"   class="d-inline-block align-top m-15" alt="">
+          </a>
+        </div>
+        <div>       
+            <h1 class="text-uppercase" id="h1">
+            Edubridge
+          </h1>
+        </div>
+
+  </nav>
+     
+        <form id="upload" name="upload">
+            <div class="container w-50">
+                <div class="col-md-12 w-100">
+                    
+                        <div class="card pt-4">
+                            <h6 class="text-uppercase text-light" id="h6">Uploading Form</h6>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="imageName">Image Name</label>
+                                            <input class="form-control"type="text" id="imageName" class="imageName">
+                                        </div>
+                                    </div>   
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="image">Upload Image File <span text-danger-text style="color:red">*</span></label>
+                                            <input class="form-control" type="file" id="image" class="image">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="text-center pt-4">
+                                        <button type="submit" id="button" class="btn btn-primary btn-md">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </form>
+        <div class="image-preview"></div>
+</body>
+</html>
